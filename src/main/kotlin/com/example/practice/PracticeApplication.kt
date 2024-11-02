@@ -1,13 +1,11 @@
-package com.example.practice;
+package com.example.practice
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
 
 @SpringBootApplication
-public class PracticeApplication {
+class PracticeApplication
 
-	public static void main(String[] args) {
-		SpringApplication.run(PracticeApplication.class, args);
-	}
-
+fun main(args: Array<String>) {
+    runApplication<PracticeApplication>(*args)
 }
